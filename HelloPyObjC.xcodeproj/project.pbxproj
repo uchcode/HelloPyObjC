@@ -6,11 +6,32 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		E2B36D561E8A54DB00923B8A /* AppDelegate.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = AppDelegate.py; sourceTree = "<group>"; };
+		E2B36D571E8A54DB00923B8A /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		E2B36D581E8A54DB00923B8A /* setup.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		E2B36D591E8A54DB00923B8A /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		E2B36D5A1E8A54E800923B8A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		E2B36D4B1E8A54C300923B8A = {
 			isa = PBXGroup;
 			children = (
+				E2B36D5B1E8A557100923B8A /* HelloPyObjC */,
+				E2B36D5A1E8A54E800923B8A /* Makefile */,
 			);
+			sourceTree = "<group>";
+		};
+		E2B36D5B1E8A557100923B8A /* HelloPyObjC */ = {
+			isa = PBXGroup;
+			children = (
+				E2B36D561E8A54DB00923B8A /* AppDelegate.py */,
+				E2B36D591E8A54DB00923B8A /* MainMenu.xib */,
+				E2B36D571E8A54DB00923B8A /* main.py */,
+				E2B36D581E8A54DB00923B8A /* setup.py */,
+			);
+			name = HelloPyObjC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +207,7 @@
 				E2B36D551E8A54C300923B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
